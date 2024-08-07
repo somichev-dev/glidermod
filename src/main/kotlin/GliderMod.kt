@@ -1,6 +1,3 @@
-import org.bukkit.plugin.Plugin
-import org.bukkit.plugin.java.JavaPlugin
-
 /*
     GliderMod - glider from RLEngine
     Copyright (C) 2024 somichev.dev
@@ -18,6 +15,9 @@ import org.bukkit.plugin.java.JavaPlugin
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+
+import org.bukkit.plugin.Plugin
+import org.bukkit.plugin.java.JavaPlugin
 
 class GliderMod: JavaPlugin(){
     override fun onEnable() {

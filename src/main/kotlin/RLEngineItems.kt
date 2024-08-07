@@ -11,10 +11,4 @@ object RLEngineItems {
         RLEItems[id] = item
         GliderMod.instance.logger.info("Registered item: $id")
     }
-
-    fun fetchItem(id: String): AbstractRLItem?{
-        return RLEItems[id]
-    }
-
-    fun getItems() = RLEItems.keys.toList()
 }
