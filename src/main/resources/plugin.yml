@@ -1,0 +1,29 @@
+name: GliderMod
+version: $version
+main: GliderMod
+description: $description
+api-version: '$apiVersion'
+
+author: somichev.dev
+website: https://somichev.dev
+contributors:
+  - denbski
+  - mekval
+prefix: Glider Mod
+
+commands:
+  get:
+    description: Get glider.
+    permission: glider.get
+    aliases: [get]
+    permission-message: ""
+    usage: "Usage: /get [id]"
+
+permissions:
+  glider.*:
+    default: op
+    children:
+      glider.get: true
+
+    glider.get:
+      default: op
